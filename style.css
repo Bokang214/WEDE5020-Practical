@@ -1,0 +1,61 @@
+/*This is an element selector*/
+a{
+    color: black;
+ }   
+
+ article{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   /*font size is "px"*/
+   font-size: 22px;
+    }
+/* This is an ID selector*/
+#purplecolor{
+color: purple;
+font-style: italic;
+/*font size is "em"*/
+font-size: 3em;
+}
+
+#bluecolor{
+    color: blue;
+    font-weight: bold;
+    /*font size is "rem"*/
+    font-size: 2rem;
+    background-color: #B90C00;
+  
+}
+/*This is a class selector*/
+.myBackground {
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255, 0.9);
+}
+.box{
+    
+    border-style:solid;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(53, 114, 245);
+    
+    box-sizing: border-box;
+    margin-left: 100px;
+    
+
+}
+.test{
+    /*margin-left: 30px;
+    margin-top: 30px;*/
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #000;
+    margin: 60px 160px 0 120px;
+}
+
+/*
+    padding: 20px;
+    border: 1px;
+    margin: 20px;
+    box-sizing: border-box;
+    *border-radius: 100px;
+*/
