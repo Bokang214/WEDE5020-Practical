@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h2> JavaScript Validation</h2>
+        <form name="myForm" action="/action_page.php" onsubmit=" return formValidation()" method="post"> 
+            <!--System accepts the name of a user and display it in a "welcome "message-->
+            <label> WELCOME BACK! <p id="usefirstName"></p></label>
+            <!--a section for user input-->
+            <input type="text" name="fname" placeholder="Enter your name" /><br/>
+             <input type="text" name="lname" placeholder="Enter your last name"/><br/>
+              <input type="email" name="email" placeholder="Enter your email address" /> <br/>
+               <input type="text" name="esub"/><br/>
+               <textarea name="emessage"></textarea><br/>
+               <input type="submit" value="Submit"/>
+
+        </form>
+        <script src="valiScript.js"></script>
+</body>
+</html>
