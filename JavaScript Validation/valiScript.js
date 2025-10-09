@@ -1,6 +1,6 @@
  //Requesting user their first name
     var user = prompt("Hi, what is your first name?")
-    document.getElementsById("userFirstNmae").innerHTML = user;
+    document.getElementsById("userFirstNmae").innerHTML = "WELCOME BACK!" + user;
    
 function formValidation(){
 
